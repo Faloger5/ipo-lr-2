@@ -1,5 +1,6 @@
-n = int(input("Количество школьников:"))
-k = int(input("Количество яблок:"))
-apples_in_hand = k // n
-apples_in_basket = k % n
-print (apples_in_hand, apples_in_basket)
+n = int(input("Количество школьников:")) #Просим пользователя ввести значение переменной
+k = int(input("Количество яблок:")) #Просим пользователя ввести значение переменной
+apples_in_hand = k // n #Находим кол-во яблок у каждого школьника
+apples_in_basket = k % n #Находим кол-во яблок в корзине
+print (apples_in_hand, apples_in_basket) #Выводим результат вычислений
+
