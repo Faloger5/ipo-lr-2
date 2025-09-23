@@ -1,7 +1,8 @@
-var_init = 70
-var_float = 8.4
-var_str = "No"
-big_int35 = var_init * 3
-var_float -= 1
-var_str = var_str * 3 +"Yes"*2
-print (big_int35, var_float, var_init/var_float, big_int35/var_float, var_str, end="\n" )
+var_init = 70 #Задаем значение переменной
+var_float = 8.4 #Задаем значение переменной
+var_str = "No" #Задаем значение переменной
+big_int35 = var_init * 3 #Выводим результат умножения переменной в новую переменную
+var_float -= 1 #Выводим результат вычитания переменной в новую переменную
+var_str = var_str * 3 +"Yes"*2 #Выводим результат сложения строк в новую переменную
+print (big_int35, var_float, var_init/var_float, big_int35/var_float, var_str, end="\n" ) #Выводим получившиеся значения
+
